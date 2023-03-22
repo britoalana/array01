@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* input{
+input{
     display: flex;
     align-items: center;
     text-align: center;
@@ -20,4 +20,4 @@ button{
     font-size: 15px;
     background-color: #BFACE2;
     border: none;
-} */
+} 
