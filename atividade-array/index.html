@@ -32,13 +32,16 @@
 
             if (objetos.indexOf(objeto) !== -1) {
                 alert("Objeto já foi adicionado")
+
             }
 
             else if(objetos.indexOf(objeto) === -1) {
                 objetos.push(objeto)
-                console.log(objetos) 
+                console.log(objetos)
             }
         }
+
+        document.getElementById('campoInput').value=''
     }) 
         const btnOrdenar = document.getElementById('ordenar')
         btnOrdenar.addEventListener('click', () => {
