@@ -18,31 +18,34 @@
 
     <script>
         var objetos = ['Cadeira', 'Impressora', 'Garfo']
-        let valor = document.getElementById('campoInput').value
+        
+        
 
-        let btnAdicionar = document.getElementById('adicionar')
+        const btnAdicionar = document.getElementById('adicionar')
         btnAdicionar.addEventListener('click', () => {
-
-            if (valor === "") {
+            let valor = document.getElementById('campoInput')
+            let objeto = valor.value
+            if (objeto === "") {
                 alert("Informe um valor válido")
             }
+            else{
 
-            if (objetos.includes(valor)) {
+            if (objetos.indexOf(objeto) !== -1) {
                 alert("Objeto já foi adicionado")
             }
 
-            else {
-                objetos.push(valor)
+            else if(objetos.indexOf(objeto) === -1) {
+                objetos.push(objeto)
                 console.log(objetos) 
             }
-        })
-        let btnOrdenar = document.getElementById('ordenar')
+        }
+    }) 
+        const btnOrdenar = document.getElementById('ordenar')
         btnOrdenar.addEventListener('click', () => {
 
-            objetos.sort();
-            console.log(objetos);
+          console.log( objetos.sort())
 
-
+        
         })
 
 
