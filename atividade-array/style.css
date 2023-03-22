@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* input{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+button{
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #BFACE2;
+    border: none;
+} */
