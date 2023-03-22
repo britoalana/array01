@@ -3,21 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-input{
+main{
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
+    min-height: 60vh;
     flex-direction: column;
-    border-radius: 10px;
+    gap: 1rem;
+}
+
+input{
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1rem 3.2rem;
+    font-size: 1.6rem;
 }
 
 button{
-    padding: 1rem;
     border-radius: 10px;
     cursor: pointer;
     font-size: 15px;
-    background-color: #BFACE2;
+    background-color: #ae8cee;
     border: none;
-} 
+    padding: 1rem 3.2rem;
+}
+
+body{
+    background-color: #BFACE2;
+    font-size: 1.6rem;
+}
+
